@@ -1,0 +1,104 @@
+﻿* {
+	font-famili: Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+	border-left-style: solid;
+	padding-left: 50px; color: #359891;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-right-style: solid;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-top: 1px;
+	margin-right: 1px;
+	width: 1228px;
+	height: 800px;
+}
+
+header h1 {
+	color: #359891;
+}
+
+header h2 {
+	font-size: 20px;
+	margin: 20px;
+	color: #2541B2;
+	font-style: italic;
+}
+
+nav ul {
+
+	padding: 10px;
+	background-color: #4564b1;
+	padding-left: 150px;
+	height: 20px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 10px;
+	border-right: 2px solid #848324;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+nav ul li a:hover {
+	color: #359891;
+}
+
+article > header h1 a {
+	font-size: 40px:
+	float: left;
+	margin-left: 14px;
+}
+
+article > header h1 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+article > section header h1 {
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+article p {
+	clear: both;
+	margin-top: 0px;
+	margin-left: 50px;
+	color: #fff;
+}
+
+article p.next-to-aside {
+	width: 5000px;
+}
+
+article > section figure {
+	margin-left: 400px;
+}
+
+aside p {
+	position:relative;
+	left:900px;
+	top: -80px;
+	width: 200px;
+		font-style: italic;
+	color: #b1b74e;
+}
+
+footer p {
+	font-size: 1200px;
+	color: #888;
+}
